@@ -1,4 +1,4 @@
-package com.kbh.desk.theory.basic.generic;
+package com.kbh.desk.theory.basic.generic.genericType;
 
 public class Box<T> {
     private T t;
