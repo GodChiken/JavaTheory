@@ -5,7 +5,7 @@ package com.kbh.desk.theory.basic.polymorphism.inheritance.abstractMethod;
  */
 class CouponDiscount5Percent extends Coupon {
 
-    public CouponDiscount5Percent(int price) {
+    CouponDiscount5Percent(int price) {
         super(price);
     }
 

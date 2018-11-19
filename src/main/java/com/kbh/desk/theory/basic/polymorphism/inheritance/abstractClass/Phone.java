@@ -1,9 +1,9 @@
 package com.kbh.desk.theory.basic.polymorphism.inheritance.abstractClass;
 
 public abstract class Phone {
-    public String owner;
+    private String owner;
 
-    public Phone(String owner) {
+    Phone(String owner) {
         this.owner = owner;
     }
 

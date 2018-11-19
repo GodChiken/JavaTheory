@@ -3,7 +3,7 @@ package com.kbh.desk.theory.basic.polymorphism.inheritance.abstractMethod;
 public abstract class Coupon {
     int price;
 
-    public Coupon(int price) {
+    Coupon(int price) {
         this.price = price;
     }
 
@@ -15,16 +15,16 @@ public abstract class Coupon {
         System.out.println(dp);
     }
 
-    public final void order(int discountPrice) {
+    private void order(int discountPrice) {
         validate(discountPrice);
         pay(discountPrice);
     }
 
-    private final void pay(int discountPrice) {
+    private void pay(int discountPrice) {
         // do something
     }
 
-    private final void validate(int discountPrice) {
+    private void validate(int discountPrice) {
         // do something
     }
 
